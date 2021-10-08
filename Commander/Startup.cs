@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
 using Commander.Data;
 
@@ -26,10 +27,15 @@ namespace Commander
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<CommanderContext>(opt => opt.UseSqlServer
+            (Configuration.GetConnectionString("CommanderConnection")));
+
             services.AddControllers();
 
             // add tanscient method for adding an additional configuration
             services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+
+
 
         }
 

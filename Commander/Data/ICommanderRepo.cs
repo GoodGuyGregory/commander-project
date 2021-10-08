@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using COmmander.Models;
+using Commander.Models;
 
 
 namespace Commander.Data
@@ -11,7 +11,7 @@ namespace Commander.Data
         // this interface will define all of the methods of our rest API
         
 
-        IEnumerable<Command> GetAppCommands();
+        IEnumerable<Command> GetAllCommands();
 
         Command GetCommandById(int id);
 

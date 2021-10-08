@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
+using Commander.Data;
+
 namespace Commander
 {
     public class Startup
@@ -25,6 +27,10 @@ namespace Commander
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            // add tanscient method for adding an additional configuration
+            services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+
         }
 
 // This is where the request pipelines are build for middleware

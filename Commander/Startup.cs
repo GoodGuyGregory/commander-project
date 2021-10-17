@@ -33,7 +33,10 @@ namespace Commander
             services.AddControllers();
 
             // add tanscient method for adding an additional configuration
-            services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+            // services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+
+            // adds connection for the SQLCommander Repository
+            services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
 
 
 

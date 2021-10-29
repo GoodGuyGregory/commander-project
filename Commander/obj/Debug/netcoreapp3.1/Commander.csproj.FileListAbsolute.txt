@@ -1,11 +1,9 @@
-C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\Commander.csprojAssemblyReference.cache
 C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\Commander.AssemblyInfoInputs.cache
 C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\Commander.AssemblyInfo.cs
 C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.CoreCompileInputs.cache
 C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\Commander.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\Commander.exe
 C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\Commander.deps.json
 C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\Commander.runtimeconfig.json
@@ -69,4 +67,6 @@ C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\runtim
 C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.CopyComplete
+C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.AssemblyReference.cache
+C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\Commander.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\scopedcss\bundle\Commander.styles.css

@@ -13,15 +13,15 @@ namespace Commander.Data
         {
             _context = context;
         }
-        IEnumerable<Command> ICommanderRepo.GetAllCommands()
+        public IEnumerable<Command> GetAllCommands()
         {
             // uses Linq in order to return all the lists
             return _context.Commands.ToList();
         }
 
-        Command ICommanderRepo.GetCommandById(int id)
+        public Command GetCommandById(int id)
         {
-            // uses Linq to aquire the memeber with that
+            // uses Linq to aquire the member with that
             return _context.Commands.FirstOrDefault(p => p.Id == id);
         }
     }

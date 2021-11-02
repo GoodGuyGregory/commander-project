@@ -10,12 +10,14 @@ namespace Commander.Data
         // the objects that USE this type will have to define and implement the methods of this interface
         // this interface will define all of the methods of our rest API
         
-
+        
+        bool SaveChanges();
+        
         IEnumerable<Command> GetAllCommands();
 
         Command GetCommandById(int id);
 
-        
+        void CreateCommand(Command cmd);
 
     }
 }

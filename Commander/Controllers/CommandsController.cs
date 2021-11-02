@@ -48,5 +48,17 @@ namespace Commander.Controllers
             }
             return NotFound();
         }
+
+        // POST: api/commands/
+        [HttpPost]
+        public ActionResult <CommandReadDto> CreateCommand(CommandCreateDto cmdCreate)
+        {
+            //in a real project type model parsing would be needed....
+            var commandModel = _mapper.Map<Command>(cmdCreate);
+            // pass the model in as an argument
+            _repository.CreateCommand(commandModel);
+            return Ok(commandModel);
+        }
+
     }
 }

@@ -32,6 +32,8 @@ namespace Commander
 
             services.AddControllers();
 
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             // add tanscient method for adding an additional configuration
             // services.AddScoped<ICommanderRepo, MockCommanderRepo>();
 

@@ -70,3 +70,5 @@ C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\runtim
 C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.AssemblyReference.cache
 C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\Commander.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\gregw\Github\commander-project\Commander\obj\Debug\netcoreapp3.1\scopedcss\bundle\Commander.styles.css
+C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\gregw\Github\commander-project\Commander\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
